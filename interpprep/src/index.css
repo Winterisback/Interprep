@@ -1,0 +1,70 @@
+:root {
+  color-scheme: light;
+  --accent: #534ab7;
+  --accent-dark: #453ca2;
+  --accent-soft: #eeedfe;
+  --tag-bg: #eeedfe;
+  --tag-text: #3c3489;
+  --border: #e6e8ef;
+  --text-strong: #151826;
+  --text-body: #4f566b;
+  --text-muted: #6b7285;
+  --text-subtle: #99a1b3;
+  --surface: #ffffff;
+  font-family:
+    Inter,
+    'Segoe UI',
+    Roboto,
+    'Noto Sans KR',
+    Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text-body);
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #ffffff;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #ffffff;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+table {
+  border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  background: #ffffff;
+}
